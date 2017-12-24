@@ -1,0 +1,145 @@
+body {
+    background: url(../images/background.jpg);
+    background-attachment: fixed;
+    background-position: center, top;
+    background-size: cover;
+    background-color: #353535;
+
+    font-family: Calibri;
+    text-align: center;
+    color: #BDC3C7;
+    margin: 0;
+}
+
+h1 {
+    font-size: large;
+}
+
+a {
+    text-decoration: none;
+    color: #BDC3C7;
+}
+
+ul li {
+    display: inline;
+}
+
+ul {
+    margin: 0;
+    padding: 2% 0;
+    font-size: 0;
+}
+
+.menu {
+    display: inline-block;
+    width: 64%;
+}
+
+.menu_button {
+    font-size: large;
+    color: #BDC3C7;
+    padding: 2% 8%;
+}
+
+.menu_selected-button {
+    font-size: large;
+    color: #353535;
+    background-color: #BDC3C7;
+    padding: 2% 8%;
+    pointer-events: none;
+}
+
+.menu_button:hover {
+    color: #353535;;
+    background-color: #BDC3C7;
+}
+
+.header {
+
+    background-color: #353535;
+    opacity: 0.95;
+}
+
+.title {
+    text-align: left;
+    width: 28%;
+    display: inline-block;
+}
+
+.content {
+    margin-top: 5%;
+    padding: 15% 0;
+}
+
+.start-button {
+    font-size: 150%;
+    color: #BDC3C7;
+    background-color: #353535;
+    padding: 2% 7%;
+    opacity: 0.95;
+}
+
+.start-button:hover {
+    color: #353535;;
+    background-color: #BDC3C7;
+}
+
+.page-top {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    margin-right: 60%;
+    background-color: #353535;
+    opacity: 0.95;
+    padding: 2% 5%;
+    text-align: left;
+    font-size: large;
+}
+
+.page-about {
+    margin: 5%;
+    background-color: #353535;
+    opacity: 0.95;
+    padding: 4% 5%;
+    text-align: left;
+    font-size: large;
+}
+
+.image-about {
+    width: 100%;
+}
+
+.game {
+    margin: 5%;
+    background-color: #353535;
+    padding: 4% 5%;
+    font-size: large;
+    height: 500px;
+}
+
+.hero {
+    width: 100px;
+    height: 100px;
+}
+
+.image-hero {
+    width: 100%;
+}
+
+th {
+    padding: 10px;
+}
+
+td {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.game_over {
+    margin: 5% 20%;
+    background-color: #353535;
+    opacity: 0.95;
+    padding: 10%;
+}
